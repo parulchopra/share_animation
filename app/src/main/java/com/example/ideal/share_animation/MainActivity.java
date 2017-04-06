@@ -26,7 +26,7 @@ LinearLayout revealLesson;
        int cx = (revealLesson.getLeft() + revealLesson.getRight())/2;
         int cy = (revealLesson.getTop() + revealLesson.getBottom())/2;
 
-         // int cx= revealLesson.getRight();
+         // int cx= revealLesson.getRight(); opening from bottom right side.
          // int cy = revealLesson.getBottom();
         int finalRadius = (int) Math.hypot((double) revealLesson.getWidth(), (double) revealLesson.getHeight());
 
